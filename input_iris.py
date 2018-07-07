@@ -2,9 +2,9 @@ import numpy as np
 import random
 
 
-
+Iris_path = r'C:\Users\Administrator\Desktop\iris.txt'
 def read_iris(train_size):
-    f = open(r'C:\Users\Administrator\Desktop\iris.txt','r')
+    f = open(Iris_path,'r')
 
     iris_data=np.empty((150,4),dtype=float)
     
